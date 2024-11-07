@@ -1,100 +1,53 @@
-//    JAVASCRIPT  DAILY-CLASS
+//            DAILY  CLASS
 
 
-// increment and decrement opener.....................................................
+// Loops ....................................................................
 
-// let num = 20;
-// console.log(--num,num--,num,num--,num--,num--,--num,num,num--)         // step 1:
-// console.log(num++,num,num++,num++,num++);                       // step 2:
+// (i). for loop
+// const n = 5;
+// for(let i = 1; i <= n; i++){
+//     console.log("I am a programmer");
+// }
 
+// Que - Write a program which takes a number from user and print the table. 
 
-// Logical operator ...................................................................
-// &&,!,||
-
-// &&
-// let a = 3;
-// let b = 2;
-// let c = 1;
-// let d = 5;
-// let res =a>b && c<b;
-// console.log(res);
-
-
-// || ..................................................................................
-// let a = 3;
-// let b = 2;
-// let c = 1;
-// let d = 5;
-// let res =a>b || d<b;
-// console.log(res);
-
-
-// !....................................................................................
-// let a = 3;
-// let b = 2;
-// let c = 5;
-// let d = 5;
-// let res = a!=b || c!=d;
-// console.log(res);
-
-
-// Conditional Operator ................................................................
-
-// let a  = 5;
-// let b  = 5;
-// let res = (a===b ? 'c' : 'g')
-
-// console.log(res);
-
-
-// ....................................................................................
-// let a=4567;
-//  let res = a/1000;
-// console.log(Math.floor(res));
-
-
-// Decision making .....................................................................
-// if else
-
-// let x = 5;
-// if(x>10){
-//     console.log('x is greater than 10');
-// }else {
-//     console.log('x is less then or equal to 10');
+// let i = 3;
+// for(let i = 1; i <= 10; i++){
+//     console.log(`3 x ${i} = ${3 * i}`);
 // }
 
 
+// Print a pattern ..............................................................
 
-//Sswitch statement .............................................................
+// for(let i = 1; i <= 10; i++){
+//     let pattern = " ";
+//     for(let j = 1; j <= i; j++){
+//         pattern += j ; // or pattern += j + "";
+//     }
+//     console.log(pattern);
+// }
 
-//  let check = 4;
-//  switch (check)
 
-//      case 1:  
-//         console.log("sunday");
-//         break;
+//  for-in loop ...........................................................
 
-//      case 2:
-//         console.log("monday");
-//         break;
+// const student = {
+//     name : "Arhan",
+//     class : 4,
+//     age : 9
+// }
+// for(let key in student){
+// console.log(`${key} : ${student[key]}`);
+// }
 
-//      case 3:
-//         console.log("tuesday");
-//         break;
 
-//      case 4:
-//         console.log("wednesday");
-//         break;
+// Nested loops ...................................................
 
-//      case 5:
-//         console.log("thusday");
-//         break;
 
-//      case 6:
-//         console.log("friday");
-//         break;
-
-//      case 7:
-//         console.log("sutarday");
-//         break;
-
+// const n = 8100;
+// for (let i = 1; i <= n; i++) {
+//     let str = '';
+//     for (let j = 1; j <= i; j++) {
+//         str += j + ' ';
+//     }
+//     console.log(str);
+// }
