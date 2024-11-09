@@ -1,87 +1,86 @@
-    //       DAILY CLass
-
-
-// Question - Given an array , find out the total no. of odd and even nos.............
-
-// let arr = [1, 2, 5, 7, 8, 3, 9, 1, 3, 4, 5];
-// let totalEven = 0;
-// let totalOdd = 0;
-// for(let i = 1; i <= arr.length; i++){
-//     if(arr[i] % 2 == 0){
-//         totalEven++;
-//     }else{
-//         totalOdd++;
-//     }
-// }
-
-// console.log("Total no. of even Numbers are :", totalEven);
-// console.log("Total no. of Odd Numbers are :", totalOdd);
+           //     DAILY  CLASS
 
 
 
-// While loop .....................................................................
-
-// let i = 1;
-// while(i < 10){
-//     text = "The number is : " + i;
-//     i++;
-//     console.log(text);
-// }
-
-
-
-// Do-while loop ...................................................................
-
-// let i = 1;
-// do{
-//     console.log("Hello farman");
-//     i++;
-// }while(i < 10);
-
-
-
-// Strings Methods ..........................................................................
-// indexof()  or    lastindexof()
+// (v). Replace() method - The Javascript replace() changes the defined value to an another value ...........
 
 // var name = "You will be an amazing developer";
-// let index = name.indexOf("developer");
-// console.log(index);
-// index = name.lastIndexOf("developer");
-// console.log(index);
-// index = name.indexOf("developer", 80);                // -1
-// console.log(index);
+// console.log(name.replace(' ', '_'));
+// console.log(name.replaceAll(' ', '_'));
+// console.log(name.trim());
 
 
 
-// * Methods of String      ........................................................
-// The concat() method is used to join two or more strings. 
+// (vi). Split() Method - The split() method converts strings into arrays......................................
 
-// var string1 = "Java";
-// var string2 = "Script";
-// // var string3 = String1 + string2;            // First way..
-// var string3 = string1.concat(string2)       //Second way...
-// console.log(string3);
+// var num = "You will be an amazing developer";
+// var num1 = num.split(' ');
+// console.log(num1);
 
 
 
-// slice() Method - The slice() method removes the parts of a string and returns the extracted parts to a new string.........
+// (vii). length() Method - It is used to measure the length of a String.......................................
 
-// var name = "You will be an amazing developer";
-// var newMessage = name.slice(7, 13);
-// console.log(newMessage);
-// newMessage = name.slice(7, -13);
-// console.log(newMessage);
-// newMessage = name.slice(7);
-// console.log(newMessage);
-// newMessage = name.slice(-7);
-// console.log(newMessage);
+// var num = "You will be an amazing developer";
+// console.log(num.length);
 
 
 
-// (iv). Substring() Method - Substring does not support negative index for substring, second parameter is length............
+// Question - You are provided with a string, You have to slice the name from the string......................
 
-// var name = "You will be an amazing developer";
-// var newMessage = name.substring(7, 13);
-// console.log(newMessage);
-// var newMessage = name.substring(7);
-// console.log(newMessage);
+// let str = "Hi Prepbytes";
+// let sliced = str.slice(3);
+// console.log(sliced);
+
+
+
+// 18. Array - Methods of Array..............................................................................
+
+// (i). Push() Method - The Push() method adds new elements to the end of an Array, and returns the new length. 
+// const arr = ["Jarvis", "The"];
+// arr.push("Developer");
+// console.log(arr);
+
+
+
+// (ii). slice() method - The slice() method selects a part of an array and returns the new array............
+
+// const arr = ["Jarvis", "The", "Developer"];
+// console.log(arr.slice(1,2));
+
+
+
+// (iii). toString() method - The toString() method converts an array to a String, and returns the result.............
+
+// const arr = ["Jarvis", "The", "Developer"];
+// console.log(arr.toString());
+
+
+
+// (iv). shift() method - The shift() method removes the first element of an Array, and returns that element............
+
+// const arr = ["Jarivs", "The", "Developer"];
+// arr.shift();
+// console.log(arr);
+
+
+
+// (v). map() method - The map() method creates a new array with the results of calling a function for every array Element..........
+
+// const arr = [1, 4, 9, 16];
+// console.log(arr.map(x => x * 2));
+
+
+
+// (vi). pop() method - The pop() method removes the last element of an array, and returns that element................................
+
+// const arr = ["Jarvis", "The", "Developer"];
+// let arr1 = arr.pop();
+// console.log(arr); 
+
+
+
+// (vii). filter() method - The filter() method creates an array filled with all array elements that pass a test (provided as a function)........
+
+// const arr = ["Jarvis", "The", "Developer"];
+// console.log(arr.filter(word => word.length > 3));
