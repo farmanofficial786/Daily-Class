@@ -1,86 +1,64 @@
-           //     DAILY  CLASS
+               // DAILY  CLASS
+
+
+// Question - You are provided an array of integer and you have to print the sum of array................
+
+// let arr = [1, 2, 3, 4];
+// let sum = 0;
+// for(let i = 0; i < arr.length; i++){
+//     sum += arr[i]; // or sum = sum + arr[i];
+// }
+// console.log(sum);
 
 
 
-// (v). Replace() method - The Javascript replace() changes the defined value to an another value ...........
+// (viii). Reverse() and sort() method ..........................................
 
-// var name = "You will be an amazing developer";
-// console.log(name.replace(' ', '_'));
-// console.log(name.replaceAll(' ', '_'));
-// console.log(name.trim());
-
-
-
-// (vi). Split() Method - The split() method converts strings into arrays......................................
-
-// var num = "You will be an amazing developer";
-// var num1 = num.split(' ');
-// console.log(num1);
+// const arr = [1, 2, 3, 4, 5, 6, 2, 3, 7, 93, -12];
+// console.log(arr.reverse());
+// console.log(arr.sort());
 
 
 
-// (vii). length() Method - It is used to measure the length of a String.......................................
+// (ix). includes() method....................................................
 
-// var num = "You will be an amazing developer";
-// console.log(num.length);
-
-
-
-// Question - You are provided with a string, You have to slice the name from the string......................
-
-// let str = "Hi Prepbytes";
-// let sliced = str.slice(3);
-// console.log(sliced);
+// const arr = [1, 2, 3, 4, 5];
+// console.log(arr.includes(5));
 
 
 
-// 18. Array - Methods of Array..............................................................................
+// (x). splice() and slice() method..........................................
 
-// (i). Push() Method - The Push() method adds new elements to the end of an Array, and returns the new length. 
-// const arr = ["Jarvis", "The"];
-// arr.push("Developer");
+// const arr = [1, 2, 3, 4, 5];
+// console.log(arr.splice(0, 1, 10));
+// console.log(arr);
+// console.log(arr.splice(1, 3, 'a', 'b', 'c', 'd'));
+// console.log(arr);
+// console.log(arr.slice(1, 3));
 // console.log(arr);
 
 
 
-// (ii). slice() method - The slice() method selects a part of an array and returns the new array............
+// (xi). unshift() method......................................................
 
-// const arr = ["Jarvis", "The", "Developer"];
-// console.log(arr.slice(1,2));
-
-
-
-// (iii). toString() method - The toString() method converts an array to a String, and returns the result.............
-
-// const arr = ["Jarvis", "The", "Developer"];
-// console.log(arr.toString());
+// const arr1 = [1, 2, 3, 4, 5];
+// console.log(arr1.unshift(10));
+// console.log(arr1);
 
 
 
-// (iv). shift() method - The shift() method removes the first element of an Array, and returns that element............
+// (xii). concat() and join() methods............................................
 
-// const arr = ["Jarivs", "The", "Developer"];
-// arr.shift();
-// console.log(arr);
+// let myArr = [1, 2, 3];
+// console.log(myArr.concat(5, 6, 7));
 
-
-
-// (v). map() method - The map() method creates a new array with the results of calling a function for every array Element..........
-
-// const arr = [1, 4, 9, 16];
-// console.log(arr.map(x => x * 2));
+// let MyArr = ["Hi", "How", "Are", "You"];
+// console.log(MyArr.join("_"));
 
 
 
-// (vi). pop() method - The pop() method removes the last element of an array, and returns that element................................
+// (xiii). indexOf() and lastIndexOf() method.....................................
 
-// const arr = ["Jarvis", "The", "Developer"];
-// let arr1 = arr.pop();
-// console.log(arr); 
-
-
-
-// (vii). filter() method - The filter() method creates an array filled with all array elements that pass a test (provided as a function)........
-
-// const arr = ["Jarvis", "The", "Developer"];
-// console.log(arr.filter(word => word.length > 3));
+// let myArr = [1, 2, 3, 4, 5, 6, 3];
+// console.log(myArr.indexOf(3));
+// console.log(myArr.lastIndexOf(3));
