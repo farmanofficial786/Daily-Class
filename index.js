@@ -1,64 +1,80 @@
-               // DAILY  CLASS
+               //  DAILY  CLASS
 
 
-// Question - You are provided an array of integer and you have to print the sum of array................
 
-// let arr = [1, 2, 3, 4];
-// let sum = 0;
-// for(let i = 0; i < arr.length; i++){
-//     sum += arr[i]; // or sum = sum + arr[i];
+// Que 1) Given a string, find out the number of vowels....................................
+
+// let str = "Hello! , My Name Is farman";
+// let vowels = "aeiouAEIOU";
+// let count = 0; 
+// for(let i = 0; i < str.length; i++){
+//   for(let j = 0; j < vowels.length; j++){
+//     if(str[i] === vowels[j])
+//    count++;
+//   }
 // }
-// console.log(sum);
+// console.log(count);
 
 
 
-// (viii). Reverse() and sort() method ..........................................
+// Vowels..................................................................................
 
-// const arr = [1, 2, 3, 4, 5, 6, 2, 3, 7, 93, -12];
-// console.log(arr.reverse());
-// console.log(arr.sort());
-
-
-
-// (ix). includes() method....................................................
-
-// const arr = [1, 2, 3, 4, 5];
-// console.log(arr.includes(5));
+// let nam = "farman ansari";
+// let vowels1;
+// for(let i of nam){
+//     if((i === "a") || (i === "e") || (i === "i") || (i === "o") || (i === "u")){
+//     vowels1 = i;
+// }
+// }
+// console.log(vowels1);
 
 
 
-// (x). splice() and slice() method..........................................
+// Que 2)  Given an arrya, find out total no. of odd and even nos.............................. 
 
-// const arr = [1, 2, 3, 4, 5];
-// console.log(arr.splice(0, 1, 10));
-// console.log(arr);
-// console.log(arr.splice(1, 3, 'a', 'b', 'c', 'd'));
-// console.log(arr);
-// console.log(arr.slice(1, 3));
-// console.log(arr);
+// let arr = [1, 5, 6, 3, 8, 9, 7, 2];
+// let evenNo = 0;
+// let oddNo = 0;
 
-
-
-// (xi). unshift() method......................................................
-
-// const arr1 = [1, 2, 3, 4, 5];
-// console.log(arr1.unshift(10));
-// console.log(arr1);
+// for(let i = 0; i < arr.length; i++){
+//     if(arr[i] % 2 == 0){
+//         evenNo++;
+//     }else{
+//         oddNo++;
+//     }
+// }
+// console.log("The total Number of even No. are : ", evenNo);
+// console.log("The total Number of odd No. are : ", oddNo);
 
 
 
-// (xii). concat() and join() methods............................................
+// Que 3) - Given an Array, find the number of 0's and 1's.......................................
 
-// let myArr = [1, 2, 3];
-// console.log(myArr.concat(5, 6, 7));
+// let array = [0, 1, 0, 0, 0, 1, 0, 1, 0, 1, 1, 0];
+// let Zero = 0;
+// let One = 0;
 
-// let MyArr = ["Hi", "How", "Are", "You"];
-// console.log(MyArr.join("_"));
+// for(let i = 0; i < array.length; i++){
+//         if(array[i] === 0){
+//             Zero++;
+//         }else{
+//             One++;
+//         }
+// }
+// console.log("The total No. of zero is : ", Zero);
+// console.log("The total No. of One is : ", One);
 
+// Above Question with for-of loop..........................................................
 
-
-// (xiii). indexOf() and lastIndexOf() method.....................................
-
-// let myArr = [1, 2, 3, 4, 5, 6, 3];
-// console.log(myArr.indexOf(3));
-// console.log(myArr.lastIndexOf(3));
+// let array = [0, 1, 0, 0, 0, 1, 0, 1, 0, 1, 1, 0];
+// let Zero = 0;
+// let One = 0;
+// for (a of array) {
+//     if (array[a] === 0) {
+//         Zero++;
+//     } else {
+//         One++;
+//     }
+// }
+// console.log("The total No. of zero is : ", Zero);
+// console.log("The total No. of One is : ", One);
